@@ -1,13 +1,34 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Frown, Meh, Smile } from "react-feather";
 import Form from "react-bootstrap/Form";
+import { useRouter } from "next/router";
 import Button from "react-bootstrap/Button";
-
+// require("../../models");
 function FeedbackForm() {
+  const router = useRouter();
   const [checked, setChecked] = useState([]);
   const [imgfeed, setImgfeed] = useState("");
+  const [isActive, setIsActive] = useState(true);
+  const [isActivea, setIsActivea] = useState(false);
+  const [isActiveb, setIsActiveb] = useState(false);
+
   const checkList = ["Bug", "Suggestion", "Other"];
 
+  const handleClick = () => {
+    setIsActive((current) => !current);
+    setIsActivea(false);
+    setIsActiveb(false);
+  };
+  const handleClicka = () => {
+    setIsActivea((current) => !current);
+    setIsActive(false);
+    setIsActiveb(false);
+  };
+  const handleClickb = () => {
+    setIsActiveb((current) => !current);
+    setIsActivea(false);
+    setIsActive(false);
+  };
   const handleSmile = (event) => {
     setImgfeed("smile");
   };
@@ -41,7 +62,7 @@ function FeedbackForm() {
 
     const data = {
       Description: event.target.desc.value,
-      Checkdata: checkedItems,
+      Desctype: checkedItems,
       Emoji: imgfeed,
     };
 
@@ -63,34 +84,60 @@ function FeedbackForm() {
     const result = await response.json();
 
     console.log(JSONdata);
+    // router.push("../ThanksPage");
   };
 
   return (
-    <div className="feedback_form">
+    <div className="feedback_form mt-2">
       <h2>Feedback Form</h2>
+
       <div className="feedback_form_content">
         <form onSubmit={handleSubmit}>
           <div className="feedback_form_text">
-            <h4>Send us your feedback!</h4>
-            <h6>
+            <span
+              className="mb-3"
+              style={{ fontSize: "larger", fontWeight: "bolder" }}
+            >
+              Send us your feedback!
+              <br />
+            </span>
+            <span style={{ fontSize: "small" }}>
               Do you have a suggestion or found some bug ? let us know in the
               field below
-            </h6>
+            </span>
           </div>
           <div className="feedbackform_main">
-            <h5>How was your experience ?</h5>
-            <div className="feedback_form_emojies">
-              <div className="emoji_icons" style={{ color: "green" }}>
+            <h8>How was your experience ?</h8>
+            <div className="feedback_form_emojies mb-4 mt-3">
+              <div
+                className="emoji_iconsa"
+                style={{
+                  color: isActive ? "green" : "",
+                }}
+                onClick={handleClick}
+              >
                 <a onClick={handleSmile}>
                   <Smile />
                 </a>
               </div>
-              <div className="emoji_icons" style={{ color: "orange" }}>
+              <div
+                className="emoji_icons"
+                style={{
+                  color: isActivea ? "orange" : "",
+                }}
+                onClick={handleClicka}
+              >
                 <a onClick={handleMeh}>
                   <Meh />
                 </a>
               </div>
-              <div className="emoji_icons" style={{ color: "red" }}>
+              <div
+                className="emoji_icons"
+                style={{
+                  color: isActiveb ? "red" : "",
+                }}
+                onClick={handleClickb}
+              >
                 <a onClick={handleFrown}>
                   {" "}
                   <Frown />
@@ -100,8 +147,8 @@ function FeedbackForm() {
             </div>
             <div className="feedback_form_textfield">
               <Form.Group className="mb-3">
-                <Form.Label>Describe your experience here...</Form.Label>
                 <Form.Control
+                  placeholder="Describe your experience here..."
                   as="textarea"
                   rows={3}
                   id="desc"
@@ -118,26 +165,35 @@ function FeedbackForm() {
                     {checkList.map((item, index) => (
                       <div key={index}>
                         <input
-                          style={{ marginLeft: "1rem" }}
+                          style={{ marginLeft: "1.6rem" }}
                           value={item}
                           type="checkbox"
                           onChange={handleCheck}
                         />
-                        <span className={isChecked(item)}>{item}</span>
+                        <span
+                          className={isChecked(item)}
+                          style={{
+                            marginLeft: ".2rem",
+                            fontWeight: "600",
+                            fontSize: "medium",
+                          }}
+                        >
+                          {item}
+                        </span>
                       </div>
                     ))}
                   </div>
                 </div>
               </div>
-              <Button
-                type="submit"
-                className="mt-2 "
-                style={{ width: "18rem" }}
-              >
-                Submit
-              </Button>
             </div>
           </div>
+          <Button
+            type="submit"
+            className="mt-2 "
+            style={{ width: "20rem", height: "4rem" }}
+          >
+            Submit
+          </Button>
         </form>
       </div>
     </div>
