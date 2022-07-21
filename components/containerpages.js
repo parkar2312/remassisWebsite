@@ -6,9 +6,9 @@ function ContainerPage() {
       <div className="container">
         <div className="row pb-px-200 justify-content-between homepage-testimonials d-none d-md-flex">
           <div className="col-12 col-lg-5 align-self-center order-lg-2">
-            <div className="homepage-testimonials-intro">
+            {/* <div className="homepage-testimonials-intro">
               <h2 className="display-3 line-top">
-                Leading practices rely on PatientPop
+                Leading practices rely on Remassis
               </h2>
               <p>
                 <span className="star">
@@ -85,8 +85,8 @@ function ContainerPage() {
                   width="23"
                 />
               </p>
-            </div>
-            <button
+            </div> */}
+            {/* <button
               type="button"
               className="btn btn-primary wow fadeInUp text-nowrap d-none d-md-block"
               data-bs-toggle="modal"
@@ -95,9 +95,9 @@ function ContainerPage() {
             >
               {" "}
               Get a demo{" "}
-            </button>
+            </button> */}
           </div>
-          <div className="col-12 col-lg-6 order-lg-1">
+          {/* <div className="col-12 col-lg-6 order-lg-1">
             <div
               className="row"
               data-masonry='{"percentPosition": true; "gutter": 15 }'
@@ -171,7 +171,7 @@ function ContainerPage() {
                       <Star fill=" #FED02F" />
                     </span>
                     <p>
-                      Our overall rating has almost doubled with PatientPop.
+                      Our overall rating has almost doubled with Remassis.
                       Utilization of the website has helped our office staff
                       tremendously.
                     </p>
@@ -217,7 +217,7 @@ function ContainerPage() {
                       <Star fill=" #FED02F" />
                     </span>
                     <p>
-                      PatientPop is as essential as my stethoscope. PatientPop
+                      Remassis is as essential as my stethoscope. Remassis
                       offers a service that's a critical part of my medical
                       practice. They offer a technology that creates a
                       professional environment that allows my medical practice
@@ -263,11 +263,10 @@ function ContainerPage() {
                       <Star fill=" #FED02F" />
                     </span>
                     <p>
-                      PatientPop is like an extra office assistant. It frees up
-                      my time, meaning I can get a lot more work done.
-                      PatientPop gets me the lead information, handles new
-                      patient appointments, and best of all keeps track of it
-                      all.
+                      Remassis is like an extra office assistant. It frees up my
+                      time, meaning I can get a lot more work done. Remassis
+                      gets me the lead information, handles new patient
+                      appointments, and best of all keeps track of it all.
                     </p>
                     <noscript>
                       <img
@@ -285,7 +284,7 @@ function ContainerPage() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="row pt-px-100 justify-content-center single-platform">
           <div className="col-12 col-md-10">
@@ -298,7 +297,7 @@ function ContainerPage() {
                 with less work
               </h3>
               <p>
-                PatientPop offers the most complete medical practice management
+                Remassis offers the most complete medical practice management
                 and healthcare marketing platform. We deliver measurable
                 improvements to enhance patient engagement, streamline your
                 front office, and grow your practice.

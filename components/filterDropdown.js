@@ -27,7 +27,7 @@ const Dropdown = () => {
     <div>
       <div className="dropdown4">
         <div className="dropdown-header4 p-1" onClick={toggleDropdown}>
-          <p class="mb-0">
+          <p className="mb-0">
             <Filter size={12} /> Filter{" "}
           </p>
           {/* {selectedItem
@@ -36,7 +36,7 @@ const Dropdown = () => {
           <i className={`fa fa-chevron-right icon4 ${isOpen && "open"}`}></i>
         </div>
         <div className={`dropdown-body4 ${isOpen && "open"}`}>
-          <p class="lab-title">By Account status</p>
+          <p className="lab-title">By Account status</p>
           {items.map((item) => (
             <div
               className="dropdown-item4"
@@ -49,7 +49,7 @@ const Dropdown = () => {
               {item.label}
             </div>
           ))}
-          <p class="lab-title">By Blood Type</p>
+          <p className="lab-title">By Blood Type</p>
           {items2.map((item) => (
             <div
               className="dropdown-item4"
@@ -62,7 +62,7 @@ const Dropdown = () => {
               {item.label}
             </div>
           ))}
-          <button type="submit" class="btn w-100 btn-primary">
+          <button type="submit" className="btn w-100 btn-primary">
             Apply
           </button>
         </div>

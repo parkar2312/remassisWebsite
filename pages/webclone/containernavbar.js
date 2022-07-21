@@ -4,7 +4,6 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 import Link from "next/link";
 import React, { useState } from "react";
 import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
 import GetDemoModal from "../../components/getdemomodal";
 
@@ -14,21 +13,21 @@ function ContainerNavbar() {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   return (
-    <div class="fixed-top">
-      <div class="navbar top-head">
-        <div class="container-fluid">
-          <div class="row justify-content-start">
+    <div className="fixed-top">
+      <div className="navbar top-head">
+        <div className="container-fluid">
+          <div className="row justify-content-start">
             <div>
-              See how PatientPop works -{" "}
-              <a class="js-click-webinar" href="/for/weekly-webinar/">
+              See how Remassis works{" "}
+              {/* <a className="js-click-webinar" href="/for/weekly-webinar/">
                 Join our webinar
-              </a>
+              </a> */}
             </div>
           </div>
 
           <div>
-            <div class="row justify-content-end font-normal">
-              <div className="nav-item col">
+            <div className="row justify-content-end font-normal">
+              {/* <div className="nav-item col">
                 {" "}
                 <Nav className="nav_new">
                   <NavDropdown
@@ -58,7 +57,7 @@ function ContainerNavbar() {
                     </NavDropdown.Item>
                   </NavDropdown>
                 </Nav>
-              </div>
+              </div> */}
 
               <div className="nav-item col">
                 {" "}
@@ -71,7 +70,7 @@ function ContainerNavbar() {
                     <NavDropdown.Item href="#action/3.3">
                       <a
                         href="#"
-                        class="nav-link"
+                        className="nav-link"
                         data-bs-toggle="modal"
                         data-bs-target="#modalContactSales"
                       >
@@ -79,13 +78,13 @@ function ContainerNavbar() {
                       </a>
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.3">
-                      <a class="nav-link js-click-support" href="/support">
+                      <a className="nav-link js-click-support" href="/support">
                         Support{" "}
                       </a>
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#action/3.3">
                       <a
-                        class="nav-link js-click-help"
+                        className="nav-link js-click-help"
                         href="https://help.patientpop.com"
                       >
                         Help center
@@ -94,8 +93,8 @@ function ContainerNavbar() {
                   </NavDropdown>
                 </Nav>
               </div>
-              <div class="nav-item col">
-                <a class="nav-link" href="https://app.patientpop.com/">
+              <div className="nav-item col">
+                <a className="nav-link" href="https://app.patientpop.com/">
                   Sign in
                 </a>
               </div>
@@ -103,27 +102,78 @@ function ContainerNavbar() {
           </div>
         </div>
       </div>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid mt-0">
-          <div class="header-logo">
+      {/*  */}
+      <nav className="navbar navbar-expand-lg ">
+        <div className="container-fluid mt-0 ">
+          <div className="header-logo">
             {" "}
-            <a href="/webclone">
-              <div class="l-header__logo mx-12"></div>
+            <a href="/homepage">
+              <div className="l-header__logo mx-12"></div>
             </a>
           </div>
-          <div class="button-list">
-            {" "}
+          <header className="headerx">
+            <a href="/homepage" className="logox">
+              <div className="l-header__logo mx-12"></div>
+            </a>
+            <input className="menu-btnx" type="checkbox" id="menu-btn" />
+            <label className="menu-iconx" for="menu-btn">
+              <span className="naviconx"></span>
+            </label>
+            <ul className="menux">
+              <li className="nav-item dropdown position-static ">
+                {" "}
+                <Dropdown>
+                  <a
+                    className="nav-link nav-link-top"
+                    href="../how_it_works"
+                    role="button"
+                  >
+                    {" "}
+                    How it works{" "}
+                  </a>
+                </Dropdown>
+              </li>
+              <li className="nav-item dropdown position-static">
+                {" "}
+                <Dropdown>
+                  <a
+                    className="nav-link nav-link-top"
+                    href="../whyPatientsPop"
+                    role="button"
+                  >
+                    {" "}
+                    Why Remassis{" "}
+                  </a>
+                </Dropdown>
+              </li>
+              <li className="nav-item dropdown position-static">
+                {" "}
+                <Dropdown>
+                  <a
+                    className="nav-link nav-link-top"
+                    href="../resourcess"
+                    role="button"
+                  >
+                    {" "}
+                    Resources{" "}
+                  </a>
+                </Dropdown>
+              </li>
+            </ul>
+          </header>
+          {/* <div className="button-list">
+           
             <button
               type="button"
-              class="btn btn-get-demo text-nowrap d-block d-lg-none"
+              className="btn btn-get-demo text-nowrap d-block d-lg-none"
               data-bs-toggle="modal"
               data-bs-target="#modalDemoRequestNav"
             >
               {" "}
-              Get demo{" "}
-            </button>{" "}
-            <button
-              class="navbar-toggler collapsed position-relative"
+              Get demo
+            </button>
+             <button
+              className="navbar-toggler collapsed position-relative"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#navbarExample1"
@@ -133,15 +183,19 @@ function ContainerNavbar() {
             >
               {" "}
               <span> </span> <span> </span> <span> </span>{" "}
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="navbarExample1">
-            <ul class="navbar-nav me-auto ps-lg-0">
-              <li>
-                <Dropdown>
+            </button> 
+          </div> */}
+
+          <div className="collapse navbar-collapse" id="navbarExample1">
+            <ul className="navbar-nav me-auto ps-lg-0 ">
+              {/* <li
+                className="nav-item dropdown position-static"
+                style={{ padding: "0px" }}
+              >
+             <Dropdown>
                   <Dropdown.Toggle variant="light" style={{ border: "none" }}>
                     <a
-                      class="nav-link "
+                      className="nav-link "
                       href="#"
                       id="navbarDropdown"
                       role="button"
@@ -155,17 +209,17 @@ function ContainerNavbar() {
 
                   <Dropdown.Menu style={{ width: "90rem" }}>
                     <div
-                      class="container"
+                      className="container"
                       style={{ marginLeft: "5rem", marginTop: "1rem" }}
                     >
-                      <div class="row my-md-4">
-                        <div class="col-md-6 col-lg-8 mb-4 mb-lg-0 px-2 px-lg-4">
-                          <p class="sub-title"> Features</p>
-                          <div class="row">
-                            <ul class="col-md-12 col-lg-6 pr-4 font-normal">
+                      <div className="row my-md-4">
+                        <div className="col-md-6 col-lg-8 mb-4 mb-lg-0 px-2 px-lg-4">
+                          <p className="sub-title"> Features</p>
+                          <div className="row">
+                            <ul className="col-md-12 col-lg-6 pr-4 font-normal">
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/attract-more-patients/website-seo/"
                                 >
                                   Website &amp; SEO
@@ -173,7 +227,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/manage-your-reputation/"
                                 >
                                   Reputation management
@@ -181,7 +235,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/automate-front-office/digital-registration/"
                                 >
                                   Patient intake
@@ -189,7 +243,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/automate-front-office/practice-growth-dashboard/"
                                 >
                                   Insights
@@ -197,17 +251,17 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/attract-more-patients/services"
                                 >
                                   Practice marketing
                                 </a>
                               </li>
                             </ul>
-                            <ul class="col-md-12 col-lg-6 font-normal">
+                            <ul className="col-md-12 col-lg-6 font-normal">
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/modernize-patient-experience/telehealth/"
                                 >
                                   Telehealth
@@ -215,7 +269,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/modernize-patient-experience/online-scheduling/"
                                 >
                                   Appointment scheduling
@@ -223,7 +277,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/modernize-patient-experience/text-messaging"
                                 >
                                   Text messaging
@@ -231,15 +285,15 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/automate-front-office/mobile-app"
                                 >
-                                  PatientPop mobile app
+                                  Remassis mobile app
                                 </a>
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/modernize-patient-experience/payments"
                                 >
                                   Patient payments
@@ -248,18 +302,21 @@ function ContainerNavbar() {
                             </ul>
                           </div>
                         </div>
-                        <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 px-2 px-lg-4">
-                          <p class="sub-title"> We help practices</p>
-                          <div class="list-grouplist-group-flush">
+                        <div className="col-md-6 col-lg-4 mb-4 mb-lg-0 px-2 px-lg-4">
+                          <p className="sub-title"> We help practices</p>
+                          <div className="list-grouplist-group-flush">
                             <div>
                               {" "}
-                              <a class="nav-link" href="/attract-more-patients">
+                              <a
+                                className="nav-link"
+                                href="/attract-more-patients"
+                              >
                                 {" "}
-                                <span class="menu-title">
+                                <span className="menu-title">
                                   {" "}
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="nav-icon injected-svg svg-inject"
+                                    className="nav-icon injected-svg svg-inject"
                                     id="nav-icon-grow"
                                     viewBox="-3 -3 26 26"
                                     data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/views/animations/megamenu/icon-grow.svg"
@@ -286,7 +343,7 @@ function ContainerNavbar() {
                                       stroke-width="2"
                                     ></rect>
                                     <g clip-path="url(#nav-icon-grow-clip-0)">
-                                      <g class="content">
+                                      <g className="content">
                                         <path
                                           d="M2,28V13H3a.9.9,0,0,0,.7-.3L5,11.4l2.3,2.3A.9.9,0,0,0,8,14h.1a1.3,1.3,0,0,0,.7-.4l3.3-4.1,3.2,3.2a1,1,0,0,0,1.4,0L18,11V28Z"
                                           fill="#c7e8e5"
@@ -302,21 +359,21 @@ function ContainerNavbar() {
                                   Grow
                                 </span>{" "}
                               </a>
-                              <p class="sub-menu-description">
+                              <p className="sub-menu-description">
                                 Attract and retain more patients
                               </p>
                             </div>
                             <div>
                               {" "}
                               <a
-                                class="nav-link"
+                                className="nav-link"
                                 href="/modernize-patient-experience"
                               >
                                 {" "}
-                                <span class="menu-title">
+                                <span className="menu-title">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="nav-icon injected-svg svg-inject"
+                                    className="nav-icon injected-svg svg-inject"
                                     id="nav-icon-modernize"
                                     viewBox="-5 -3 26 26"
                                     data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/views/animations/megamenu/icon-modernize.svg"
@@ -355,7 +412,7 @@ function ContainerNavbar() {
                                       stroke-width="2"
                                     ></path>
                                     <g clip-path="url(#nav-icon-modernize-clip-1)">
-                                      <g class="message">
+                                      <g className="message">
                                         <path
                                           d="M19,11a2,2,0,0,1-2,2H8V7a2,2,0,0,1,2-2h9Z"
                                           fill="#fff"
@@ -376,18 +433,21 @@ function ContainerNavbar() {
                                   Modernize
                                 </span>{" "}
                               </a>
-                              <p class="sub-menu-description">
+                              <p className="sub-menu-description">
                                 Deliver an experience patients demand
                               </p>
                             </div>
                             <div>
                               {" "}
-                              <a class="nav-link" href="/automate-front-office">
+                              <a
+                                className="nav-link"
+                                href="/automate-front-office"
+                              >
                                 {" "}
-                                <span class="menu-title">
+                                <span className="menu-title">
                                   <svg
                                     xmlns="http://www.w3.org/2000/svg"
-                                    class="nav-icon injected-svg svg-inject"
+                                    className="nav-icon injected-svg svg-inject"
                                     id="nav-icon-streamline"
                                     viewBox="-2 -2 26 26"
                                     data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/views/animations/megamenu/icon-streamline.svg"
@@ -402,21 +462,21 @@ function ContainerNavbar() {
                                       fill-rule="evenodd"
                                     ></path>
                                     <circle
-                                      class="dot"
+                                      className="dot"
                                       cx="16"
                                       cy="2.4"
                                       r="1"
                                       fill="#0fa883"
                                     ></circle>
                                     <circle
-                                      class="dot"
+                                      className="dot"
                                       cx="19.6"
                                       cy="5.9"
                                       r="1"
                                       fill="#0fa883"
                                     ></circle>
                                     <circle
-                                      class="dot"
+                                      className="dot"
                                       cx="21"
                                       cy="11"
                                       r="1"
@@ -441,7 +501,7 @@ function ContainerNavbar() {
                                       stroke-width="2"
                                     ></line>
                                     <line
-                                      class="arrow"
+                                      className="arrow"
                                       x1="13.9"
                                       y1="14.1"
                                       x2="11"
@@ -461,7 +521,7 @@ function ContainerNavbar() {
                                   Streamline
                                 </span>{" "}
                               </a>
-                              <p class="sub-menu-description">
+                              <p className="sub-menu-description">
                                 Improve your front office workflow
                               </p>
                             </div>
@@ -470,13 +530,16 @@ function ContainerNavbar() {
                       </div>
                     </div>
                   </Dropdown.Menu>
-                </Dropdown>
-              </li>
-              <li>
+                </Dropdown> 
+              </li> */}
+              {/* <li
+                className="nav-item dropdown position-static "
+                style={{ padding: "0px" }}
+              >
                 <Dropdown>
                   <Dropdown.Toggle variant="light" style={{ border: "none" }}>
                     <a
-                      class="nav-link "
+                      className="nav-link "
                       href="#"
                       id="navbarDropdown"
                       role="button"
@@ -494,17 +557,17 @@ function ContainerNavbar() {
                     }}
                   >
                     <div
-                      class="container"
+                      className="container"
                       style={{ marginLeft: "5rem", marginTop: "1rem" }}
                     >
-                      <div class="row my-md-4">
-                        <div class="col-md-12 col-lg-9 mb-4 mb-lg-0 px-2 px-lg-4">
-                          <p class="sub-title"> Specialties</p>
-                          <div class="row">
-                            <ul class="col-md-4 col-lg-4 pr-4 font-normal">
+                      <div className="row my-md-4">
+                        <div className="col-md-12 col-lg-9 mb-4 mb-lg-0 px-2 px-lg-4">
+                          <p className="sub-title"> Specialties</p>
+                          <div className="row">
+                            <ul className="col-md-4 col-lg-4 pr-4 font-normal">
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/cardiology-marketing-and-advertising/"
                                 >
                                   Cardiology
@@ -512,7 +575,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/cosmetic-dentist-marketing-and-advertising/"
                                 >
                                   Dentistry (cosmetic)
@@ -520,7 +583,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/dental-marketing-and-advertising/"
                                 >
                                   Dentistry (general)
@@ -528,7 +591,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/dermatology-marketing-and-advertising/"
                                 >
                                   Dermatology
@@ -536,7 +599,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/ent-marketing-and-advertising/"
                                 >
                                   ENT
@@ -544,7 +607,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/gastroenterology-practice-marketing-and-advertising/"
                                 >
                                   Gasteoenterology
@@ -552,7 +615,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/general-surgery-marketing-and-advertising/"
                                 >
                                   General Surgery
@@ -560,17 +623,17 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/internal-medicine-marketing-and-advertising/"
                                 >
                                   Internal Medicine
                                 </a>
                               </li>
                             </ul>
-                            <ul class="col-md-4 col-lg-4 font-normal">
+                            <ul className="col-md-4 col-lg-4 font-normal">
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/medical-spa-marketing-and-advertising/"
                                 >
                                   Med Spa
@@ -578,7 +641,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/ob-gyn-marketing-and-advertising/"
                                 >
                                   OBGYN
@@ -586,7 +649,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/ophthalmology-marketing-and-advertising/"
                                 >
                                   Ophthalmology
@@ -594,7 +657,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/optometry-marketing-and-advertising/"
                                 >
                                   Optometry
@@ -602,7 +665,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/orthopedic-marketing-and-advertising/"
                                 >
                                   Orthopedic
@@ -610,7 +673,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/pain-management-marketing-and-advertising/"
                                 >
                                   Pain Management
@@ -618,17 +681,17 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/pediatrics-marketing-and-advertising/"
                                 >
                                   Pediatrics
                                 </a>
                               </li>
                             </ul>
-                            <ul class="col-md-4 col-lg-4 pr-4 font-normal">
+                            <ul className="col-md-4 col-lg-4 pr-4 font-normal">
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/pediatric-dentistry-marketing-and-advertising/"
                                 >
                                   Pediatric Dentistry
@@ -636,7 +699,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/grow-your-practice-with-plastic-surgery-marketing/"
                                 >
                                   Plastic Surgery
@@ -644,7 +707,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/podiatry-practice-marketing-and-advertising/"
                                 >
                                   Podiatry
@@ -652,7 +715,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/primary-care-marketing-and-advertising/"
                                 >
                                   Primary Care
@@ -660,7 +723,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/psychiatry-practice-marketing-and-advertising/"
                                 >
                                   Psychiatry
@@ -668,7 +731,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/urgent-care-marketing-and-advertising/"
                                 >
                                   Urgent Care
@@ -676,7 +739,7 @@ function ContainerNavbar() {
                               </li>
                               <li>
                                 <a
-                                  class="nav-link item"
+                                  className="nav-link item"
                                   href="/for/urology-marketing-and-advertising/"
                                 >
                                   Urology
@@ -685,10 +748,13 @@ function ContainerNavbar() {
                             </ul>
                           </div>
                         </div>
-                        <div class="col-md-12 col-lg-3 mb-6 mb-lg-3 mb-lg-0 px-2 px-lg-4 d-none d-lg-block">
-                          <p class="sub-title"> Your practice and PatientPop</p>
-                          <div class="list-group list-group-flush menu-description">
-                            <p class="description">
+                        <div className="col-md-12 col-lg-3 mb-6 mb-lg-3 mb-lg-0 px-2 px-lg-4 d-none d-lg-block">
+                          <p className="sub-title">
+                            {" "}
+                            Your practice and Remassis
+                          </p>
+                          <div className="list-group list-group-flush menu-description">
+                            <p className="description">
                               We support dozens of specialties. Contact us to
                               find out about yours.
                             </p>{" "}
@@ -698,7 +764,9 @@ function ContainerNavbar() {
                               data-bs-target="#modalContactSales"
                             >
                               {" "}
-                              <span class="menu-title">Contact sales</span>{" "}
+                              <span className="menu-title">
+                                Contact sales
+                              </span>{" "}
                             </a>
                           </div>
                         </div>
@@ -706,183 +774,55 @@ function ContainerNavbar() {
                     </div>
                   </Dropdown.Menu>
                 </Dropdown>
-              </li>
+              </li> */}
 
               <li
-                class="nav-item dropdown position-static "
+                className="nav-item dropdown position-static "
                 style={{ marginTop: ".9rem" }}
               >
                 {" "}
-                <a
-                  class="nav-link nav-link-top"
-                  href="../how_it_works"
-                  role="button"
-                >
-                  {" "}
-                  How it works{" "}
-                </a>
+                <Dropdown>
+                  <a
+                    className="nav-link nav-link-top"
+                    href="../how_it_works"
+                    role="button"
+                  >
+                    {" "}
+                    How it works{" "}
+                  </a>
+                </Dropdown>
               </li>
               <li
-                class="nav-item dropdown position-static"
+                className="nav-item dropdown position-static"
                 style={{ marginTop: ".9rem" }}
               >
                 {" "}
-                <a
-                  class="nav-link nav-link-top"
-                  href="../whyPatientsPop"
-                  role="button"
-                >
-                  {" "}
-                  Why PatientPop{" "}
-                </a>
+                <Dropdown>
+                  <a
+                    className="nav-link nav-link-top"
+                    href="../whyPatientsPop"
+                    role="button"
+                  >
+                    {" "}
+                    Why Remassis{" "}
+                  </a>
+                </Dropdown>
               </li>
               <li
-                class="nav-item dropdown position-static"
+                className="nav-item dropdown position-static"
                 style={{ marginTop: ".9rem" }}
               >
                 {" "}
-                <a
-                  class="nav-link nav-link-top"
-                  href="../resourcess"
-                  role="button"
-                >
-                  {" "}
-                  Resources{" "}
-                </a>
-              </li>
-              <li class="nav-item dropdown position-static d-block d-lg-none mt-3">
-                {" "}
-                <a
-                  class="nav-link nav-link-secondary dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  {" "}
-                  Company{" "}
-                </a>
-                <div
-                  class="dropdown-menu w-100 mt-0"
-                  aria-labelledby="navbarDropdown"
-                >
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 px-lg-4 px-2 font-normal">
-                        <ul class="list-group-item list-group-item-action">
-                          <li>
-                            <a class="nav-link item" href="/about-us/">
-                              Overview
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              class="nav-link item"
-                              href="/about-us/our-provider-promise"
-                            >
-                              Provider promise
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              class="nav-link item"
-                              href="/about-us/leadership-team"
-                            >
-                              Leadership team{" "}
-                            </a>
-                          </li>
-                          <li>
-                            <a class="nav-link item" href="/newsroom/">
-                              Company news
-                            </a>
-                          </li>
-                          <li>
-                            <a class="nav-link item" href="/awards/">
-                              Awards
-                            </a>
-                          </li>
-                          <li>
-                            <a class="nav-link item" href="/careers/">
-                              Careers
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              class="nav-link item"
-                              href="/diversity-equity-and-inclusion"
-                            >
-                              DEI
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item dropdown position-static d-block d-lg-none">
-                {" "}
-                <a
-                  class="nav-link nav-link-secondary dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  {" "}
-                  Contact{" "}
-                </a>
-                <div
-                  class="dropdown-menu w-100 mt-0"
-                  aria-labelledby="navbarDropdown"
-                >
-                  <div class="container">
-                    <div class="row">
-                      <div class="col-md-6 col-lg-4 mb-4 mb-lg-0 px-lg-4 px-2 font-normal">
-                        <ul class="list-group-item list-group-item-action">
-                          <li>
-                            <a
-                              class="nav-link item"
-                              data-bs-toggle="modal"
-                              data-bs-target="#modalContactSales"
-                            >
-                              Sales
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              class="nav-link item js-click-support"
-                              href="/support"
-                            >
-                              Support{" "}
-                            </a>
-                          </li>
-                          <li>
-                            <a
-                              class="nav-link item js-click-help"
-                              href="https://help.patientpop.com"
-                            >
-                              Help center
-                            </a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </li>
-              <li class="nav-item dropdown position-static d-block d-lg-none">
-                {" "}
-                <a
-                  class="nav-link nav-link-secondary"
-                  href="https://app.patientpop.com/"
-                  role="button"
-                >
-                  {" "}
-                  Sign in{" "}
-                </a>
+                <Dropdown>
+                  <a
+                    className="nav-link nav-link-top"
+                    href="../resourcess"
+                    role="button"
+                  >
+                    {" "}
+                    Resources{" "}
+                  </a>
+                </Dropdown>
               </li>
             </ul>{" "}
             <div>

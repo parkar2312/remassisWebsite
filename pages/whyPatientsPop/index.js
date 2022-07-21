@@ -6,9 +6,9 @@ function Index() {
   return (
     <div>
       <ContainerNavbar />
-      <section class="row justify-content-center hero-section">
-        <div class="col-12 col-md-8 text-center">
-          <h3 class="heading--label">All-in-one platform</h3>
+      <section className="row justify-content-center hero-section">
+        <div className="col-12 col-md-8 text-center">
+          <h3 className="heading--label">All-in-one platform</h3>
           <h1>
             Everything your practice needs to thrive.{" "}
             <strong>All in one</strong> place.
@@ -30,18 +30,18 @@ function Index() {
             async=""
           ></script>
           <span
-            class="wistia_embed wistia_async_zvepu7j3ld popover=true popoverAnimateThumbnail=true popoverContent=link wistia_embed_initialized"
+            className="wistia_embed wistia_async_zvepu7j3ld popover=true popoverAnimateThumbnail=true popoverContent=link wistia_embed_initialized"
             //   style="display:inline;position:relative"
             id="wistia-zvepu7j3ld-1"
           >
             <div
               id="wistia_41.thumb_container"
-              class="wistia_click_to_play"
+              className="wistia_click_to_play"
               //  style="position: relative; display: inline;"
             >
               {" "}
               <a
-                class="btn btn-primary wow fadeInUp text-nowrap"
+                className="btn btn-primary wow fadeInUp text-nowrap"
                 href="#"
                 //  style="visibility: visible;"
               >
@@ -51,9 +51,9 @@ function Index() {
           </span>
         </div>
       </section>
-      {/* <section class="row justify-content-between mb-5">
-        <div class="col-12 image-container-col text-center">
-          <div class="homepage-animation">
+      {/* <section className="row justify-content-between mb-5">
+        <div className="col-12 image-container-col text-center">
+          <div className="homepage-animation">
             {" "}
             <svg
               id="why-all-in-one"
@@ -354,7 +354,7 @@ function Index() {
               <g>
                 {" "}
                 <g
-                  class="masked-photo-wrapper"
+                  className="masked-photo-wrapper"
                   clip-path="url(#why-all-in-one--clip-amount)"
                   style="transform-origin: 0px 0px;"
                   data-svg-origin="0 0"
@@ -362,7 +362,7 @@ function Index() {
                 >
                   {" "}
                   <image
-                    class="masked-photo"
+                    className="masked-photo"
                     x="1409"
                     y="74"
                     width="282"
@@ -373,7 +373,7 @@ function Index() {
                   ></image>{" "}
                 </g>{" "}
                 <g
-                  class="masked-photo-wrapper"
+                  className="masked-photo-wrapper"
                   clip-path="url(#why-all-in-one--clip-rate)"
                   style="transform-origin: 0px 0px;"
                   data-svg-origin="0 0"
@@ -381,7 +381,7 @@ function Index() {
                 >
                   {" "}
                   <image
-                    class="masked-photo"
+                    className="masked-photo"
                     x="193"
                     y="145"
                     width="282"
@@ -392,7 +392,7 @@ function Index() {
                   ></image>{" "}
                 </g>{" "}
                 <g
-                  class="masked-photo-wrapper"
+                  className="masked-photo-wrapper"
                   clip-path="url(#why-all-in-one--clip-room)"
                   style="transform-origin: 0px 0px;"
                   data-svg-origin="0 0"
@@ -400,7 +400,7 @@ function Index() {
                 >
                   {" "}
                   <image
-                    class="masked-photo"
+                    className="masked-photo"
                     x="700"
                     y="201"
                     width="282"
@@ -411,7 +411,7 @@ function Index() {
                   ></image>{" "}
                 </g>{" "}
                 <g
-                  class="masked-photo-wrapper"
+                  className="masked-photo-wrapper"
                   clip-path="url(#why-all-in-one--clip-leads)"
                   style="transform-origin: 0px 0px;"
                   data-svg-origin="0 0"
@@ -419,7 +419,7 @@ function Index() {
                 >
                   {" "}
                   <image
-                    class="masked-photo"
+                    className="masked-photo"
                     x="1349"
                     y="544"
                     width="286"
@@ -430,7 +430,7 @@ function Index() {
                   ></image>{" "}
                 </g>{" "}
                 <g
-                  class="masked-photo-wrapper"
+                  className="masked-photo-wrapper"
                   clip-path="url(#why-all-in-one--clip-pediatritian)"
                   style="transform-origin: 0px 0px;"
                   data-svg-origin="0 0"
@@ -438,7 +438,7 @@ function Index() {
                 >
                   {" "}
                   <image
-                    class="masked-photo"
+                    className="masked-photo"
                     x="519"
                     y="542"
                     width="282"
@@ -449,7 +449,7 @@ function Index() {
                   ></image>{" "}
                 </g>{" "}
                 <g
-                  class="masked-photo-wrapper"
+                  className="masked-photo-wrapper"
                   clip-path="url(#why-all-in-one--clip-blank-right)"
                   style="transform-origin: 0px 0px;"
                   data-svg-origin="0 0"
@@ -457,7 +457,7 @@ function Index() {
                 >
                   {" "}
                   <image
-                    class="masked-photo"
+                    className="masked-photo"
                     x="1042"
                     y="503"
                     width="185"
@@ -468,7 +468,7 @@ function Index() {
                   ></image>{" "}
                 </g>{" "}
                 <g
-                  class="masked-photo-wrapper"
+                  className="masked-photo-wrapper"
                   clip-path="url(#why-all-in-one--clip-blank-left)"
                   style="transform-origin: 0px 0px;"
                   data-svg-origin="0 0"
@@ -476,7 +476,7 @@ function Index() {
                 >
                   {" "}
                   <image
-                    class="masked-photo"
+                    className="masked-photo"
                     x="280"
                     y="785"
                     width="282"
@@ -487,7 +487,7 @@ function Index() {
                   ></image>{" "}
                 </g>{" "}
                 <g
-                  class="leads-block"
+                  className="leads-block"
                   data-svg-origin="1553.800048828125 747.9000244140625"
                   transform="matrix(1,0,0,1,0,0)"
                   style="transform-origin: 0px 0px;"
@@ -504,7 +504,7 @@ function Index() {
                     opacity="0.98"
                   ></rect>{" "}
                   <text
-                    class="leads-number"
+                    className="leads-number"
                     x="1579.5"
                     y="821.8"
                     font-size="29"
@@ -515,7 +515,7 @@ function Index() {
                   <text x="1578.6" y="787.6" font-size="15" fill="#2f2e50">
                     Patient Leads
                   </text>{" "}
-                  <g class="bars">
+                  <g className="bars">
                     {" "}
                     <path
                       d="M1585,883.8h4.7a2,2,0,0,1,2,2h0v11H1583v-11A2,2,0,0,1,1585,883.8Z"
@@ -598,7 +598,7 @@ function Index() {
                       fill="#9ce8d5"
                     ></path>{" "}
                   </g>{" "}
-                  <g class="badge" style="opacity: 1;">
+                  <g className="badge" style="opacity: 1;">
                     {" "}
                     <rect
                       x="1711.2"
@@ -627,7 +627,7 @@ function Index() {
                   </text>{" "}
                 </g>{" "}
                 <g
-                  class="search-block"
+                  className="search-block"
                   data-svg-origin="698 656"
                   transform="matrix(1,0,0,1,0,0)"
                   style="transform-origin: 0px 0px;"
@@ -653,7 +653,7 @@ function Index() {
                   ></rect>{" "}
                   <text
                     style="opacity: 1;"
-                    class="pediatrician-location-text"
+                    className="pediatrician-location-text"
                     x="715.5"
                     y="731.1"
                     font-size="15"
@@ -662,7 +662,7 @@ function Index() {
                     Santa Monica{" "}
                   </text>{" "}
                   <text
-                    class="pediatrician-text"
+                    className="pediatrician-text"
                     x="715.5"
                     y="731.1"
                     font-size="15"
@@ -693,7 +693,7 @@ function Index() {
                   ></line>{" "}
                   <text
                     style="opacity: 1;"
-                    class="pediatrician-location-text"
+                    className="pediatrician-location-text"
                     x="715.5"
                     y="780.9"
                     font-size="15"
@@ -702,7 +702,7 @@ function Index() {
                     Los Angeles
                   </text>{" "}
                   <text
-                    class="pediatrician-text"
+                    className="pediatrician-text"
                     x="715.5"
                     y="780.9"
                     font-size="15"
@@ -714,7 +714,7 @@ function Index() {
                     Pediatrician
                   </text>{" "}
                   <text
-                    class="pediatrician-text"
+                    className="pediatrician-text"
                     x="715.5"
                     y="830.7"
                     font-size="15"
@@ -723,7 +723,7 @@ function Index() {
                     Pediatrician
                   </text>{" "}
                   <text
-                    class="pediatrician-near-text"
+                    className="pediatrician-near-text"
                     x="717.6"
                     y="686.6"
                     font-size="15"
@@ -732,7 +732,7 @@ function Index() {
                     Pediatrician near me
                   </text>{" "}
                   <rect
-                    class="cursor"
+                    className="cursor"
                     x="716"
                     y="671.6"
                     width="1.4"
@@ -744,7 +744,7 @@ function Index() {
                   ></rect>{" "}
                 </g>{" "}
                 <g
-                  class="rate-block"
+                  className="rate-block"
                   data-svg-origin="119.69999694824219 391.70001220703125"
                   transform="matrix(1,0,0,1,0,0)"
                   style="transform-origin: 0px 0px;"
@@ -771,7 +771,7 @@ function Index() {
                   <g clip-path="url(#why-all-in-one--clip-stars)">
                     {" "}
                     <rect
-                      class="stars-filling"
+                      className="stars-filling"
                       x="197.1"
                       y="463.1"
                       width="77"
@@ -797,7 +797,7 @@ function Index() {
                   ></image>{" "}
                 </g>{" "}
                 <g
-                  class="payment-block"
+                  className="payment-block"
                   data-svg-origin="1321.9000244140625 143.60000610351562"
                   transform="matrix(1,0,0,1,0,0)"
                   style="transform-origin: 0px 0px;"
@@ -814,14 +814,14 @@ function Index() {
                     opacity="0.95"
                   ></rect>{" "}
                   <g
-                    class="btn"
+                    className="btn"
                     data-svg-origin="1342 212.10000610351562"
                     transform="matrix(1,0,0,1,0,0)"
                     style="transform-origin: 0px 0px;"
                   >
                     {" "}
                     <rect
-                      class="btn-body"
+                      className="btn-body"
                       x="1342"
                       y="212.1"
                       width="119.2"
@@ -860,7 +860,7 @@ function Index() {
                   </text>{" "}
                 </g>{" "}
                 <g
-                  class="waiting-block"
+                  className="waiting-block"
                   data-svg-origin="904 304.8999938964844"
                   transform="matrix(1,0,0,1,0,0)"
                   style="transform-origin: 0px 0px;"
@@ -930,13 +930,13 @@ function Index() {
           </div>
         </div>
       </section> */}
-      <section class="row justify-content-center quote-section my-5 pb-5">
-        <div class="col-12 col-md-10 text-center">
+      <section className="row justify-content-center quote-section my-5 pb-5">
+        <div className="col-12 col-md-10 text-center">
           <div
-            class="wow fadeInUp line-bottom"
+            className="wow fadeInUp line-bottom"
             // style="visibility: visible; animation-name: fadeInUp;"
           >
-            <h3 class="display-5 heading--quote">
+            <h3 className="display-5 heading--quote">
               “I needed a company to handle my SEO, website, patients to book
               online… just putting it all in one place. It was the best money
               I’ve spent on the business.”
@@ -949,14 +949,14 @@ function Index() {
           </div>
         </div>
       </section>
-      {/* <section class="row justify-content-center awards-section pb-5"><div class="col-12 col-md-10 text-center"> <a href="https://www.g2.com/products/patientpop/reviews?utm_source=review-widget" title="Read reviews of PatientPop on G2" rel="nofollow"><noscript><img class="full-width" style="max-width: 200px" alt="Read PatientPop reviews on G2" src="https://www.g2.com/products/patientpop/widgets/stars?color=white&amp;type=read" /></noscript><img class="full-width lazyloaded" style="max-width: 200px" alt="Read PatientPop reviews on G2" src="https://www.g2.com/products/patientpop/widgets/stars?color=white&amp;type=read" data-src="https://www.g2.com/products/patientpop/widgets/stars?color=white&amp;type=read"/></a><script>(function(a,b,c,d){window.fetch("https://www.g2.com/products/patientpop/rating_schema.json").then(e=>e.json()).then(f=>{c=a.createElement(b);c.type="application/ld+json";c.text=JSON.stringify(f);d=a.getElementsByTagName(b)[0];d.parentNode.insertBefore(c,d);});})(document,"script");</script> <a title="PatientPop is a leader in Patient Engagement on G2" href="https://www.g2.com/products/patientpop/reviews?utm_source=rewards-badge" rel="nofollow"><noscript><img style="width: 125px;" alt="PatientPop is a leader in Patient Engagement on G2" src="https://images.g2crowd.com/uploads/report_medal/image/2863/medal.svg" /></noscript><img class=" lazyloaded" style="width: 125px;" alt="PatientPop is a leader in Patient Engagement on G2" src="https://images.g2crowd.com/uploads/report_medal/image/2863/medal.svg" data-src="https://images.g2crowd.com/uploads/report_medal/image/2863/medal.svg"/></a><script>(function(a,b,c,d){window.fetch("https://www.g2.com/products/patientpop/rating_schema.json").then(e=>e.json()).then(f=>{c=a.createElement(b);c.type="application/ld+json";c.text=JSON.stringify(f);d=a.getElementsByTagName(b)[0];d.parentNode.insertBefore(c,d);});})(document,"script");</script> </div></section> */}
-      <section class="row justify-content-center my-5 py-5">
-        <div class="col-12 col-md-9 text-center">
+      {/* <section className="row justify-content-center awards-section pb-5"><div className="col-12 col-md-10 text-center"> <a href="https://www.g2.com/products/patientpop/reviews?utm_source=review-widget" title="Read reviews of PatientPop on G2" rel="nofollow"><noscript><img className="full-width" style="max-width: 200px" alt="Read PatientPop reviews on G2" src="https://www.g2.com/products/patientpop/widgets/stars?color=white&amp;type=read" /></noscript><img className="full-width lazyloaded" style="max-width: 200px" alt="Read PatientPop reviews on G2" src="https://www.g2.com/products/patientpop/widgets/stars?color=white&amp;type=read" data-src="https://www.g2.com/products/patientpop/widgets/stars?color=white&amp;type=read"/></a><script>(function(a,b,c,d){window.fetch("https://www.g2.com/products/patientpop/rating_schema.json").then(e=>e.json()).then(f=>{c=a.createElement(b);c.type="application/ld+json";c.text=JSON.stringify(f);d=a.getElementsByTagName(b)[0];d.parentNode.insertBefore(c,d);});})(document,"script");</script> <a title="PatientPop is a leader in Patient Engagement on G2" href="https://www.g2.com/products/patientpop/reviews?utm_source=rewards-badge" rel="nofollow"><noscript><img style="width: 125px;" alt="PatientPop is a leader in Patient Engagement on G2" src="https://images.g2crowd.com/uploads/report_medal/image/2863/medal.svg" /></noscript><img className=" lazyloaded" style="width: 125px;" alt="PatientPop is a leader in Patient Engagement on G2" src="https://images.g2crowd.com/uploads/report_medal/image/2863/medal.svg" data-src="https://images.g2crowd.com/uploads/report_medal/image/2863/medal.svg"/></a><script>(function(a,b,c,d){window.fetch("https://www.g2.com/products/patientpop/rating_schema.json").then(e=>e.json()).then(f=>{c=a.createElement(b);c.type="application/ld+json";c.text=JSON.stringify(f);d=a.getElementsByTagName(b)[0];d.parentNode.insertBefore(c,d);});})(document,"script");</script> </div></section> */}
+      <section className="row justify-content-center my-5 py-5">
+        <div className="col-12 col-md-9 text-center">
           <div
-            class="wow fadeInUp"
+            className="wow fadeInUp"
             //   style="visibility: visible; animation-name: fadeInUp;"
           >
-            <h3 class="display-1 line-center">
+            <h3 className="display-1 line-center">
               From first impression to lasting <strong>relationships</strong>
             </h3>
             <p>
@@ -970,100 +970,100 @@ function Index() {
           </div>
         </div>
       </section>
-      <section class="row justify-content-evenly">
-        <div class="col-12 col-md-5 mb-5">
-          <div class="image-container mb-4">
+      <section className="row justify-content-evenly">
+        <div className="col-12 col-md-5 mb-5">
+          <div className="image-container mb-4">
             <noscript>
               <img
-                class="full-width"
+                className="full-width"
                 src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-01.png"
               />
             </noscript>
             <img
-              class="full-width lazyloaded"
+              className="full-width lazyloaded"
               src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-01.png"
               data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-01.png"
             />
           </div>
           <h5>Every aspect of patient connection in one place</h5>
         </div>
-        <div class="col-12 col-md-5 mb-5">
-          <div class="image-container mb-4">
+        <div className="col-12 col-md-5 mb-5">
+          <div className="image-container mb-4">
             <noscript>
               <img
-                class="full-width"
+                className="full-width"
                 src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-02.png"
               />
             </noscript>
             <img
-              class="full-width lazyloaded"
+              className="full-width lazyloaded"
               src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-02.png"
               data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-02.png"
             />
           </div>
           <h5>Making it easier to run a thriving practice</h5>
         </div>
-        <div class="col-12 col-md-5 mb-5">
-          <div class="image-container mb-4">
+        <div className="col-12 col-md-5 mb-5">
+          <div className="image-container mb-4">
             <noscript>
               <img
-                class="full-width"
+                className="full-width"
                 src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-03.png"
               />
             </noscript>
             <img
-              class="full-width lazyloaded"
+              className="full-width lazyloaded"
               src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-03.png"
               data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-03.png"
             />
           </div>
           <h5>No more disconnected tools</h5>
         </div>
-        <div class="col-12 col-md-5 mb-5">
-          <div class="image-container mb-4">
+        <div className="col-12 col-md-5 mb-5">
+          <div className="image-container mb-4">
             {" "}
             <noscript>
               <img
-                class="full-width"
+                className="full-width"
                 src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-04.png"
               />
             </noscript>
             <img
-              class="full-width lazyloaded"
+              className="full-width lazyloaded"
               src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-04.png"
               data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-04.png"
             />
           </div>
           <h5>Improved practice operations</h5>
         </div>
-        <div class="col-12 col-md-5 mb-5">
-          <div class="image-container mb-4">
+        <div className="col-12 col-md-5 mb-5">
+          <div className="image-container mb-4">
             {" "}
             <noscript>
               <img
-                class="full-width"
+                className="full-width"
                 src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-05.png"
               />
             </noscript>
             <img
-              class="full-width lazyloaded"
+              className="full-width lazyloaded"
               src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-05.png"
               data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-05.png"
             />
           </div>
           <h5>A seamless patient experience</h5>
         </div>
-        <div class="col-12 col-md-5 mb-5">
-          <div class="image-container mb-4">
+        <div className="col-12 col-md-5 mb-5">
+          <div className="image-container mb-4">
             {" "}
             <noscript>
               <img
-                class="full-width"
+                className="full-width"
                 src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-06.png"
               />
             </noscript>
             <img
-              class="full-width lazyloaded"
+              className="full-width lazyloaded"
               src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-06.png"
               data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/why-pages/why-all-in-one-06.png"
             />
@@ -1071,27 +1071,27 @@ function Index() {
           <h5>Better business outcomes for practices</h5>
         </div>
       </section>
-      <section class="row justify-content-center my-5 py-5">
-        <div class="col-12 col-md-6 col-lg-7">
+      <section className="row justify-content-center my-5 py-5">
+        <div className="col-12 col-md-6 col-lg-7">
           {" "}
           <noscript>
             <img
-              class="full-width"
+              className="full-width"
               src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/uploads/01-It-all-starts-with-a-power-practice-site.jpg"
             />
           </noscript>
           <img
-            class="full-width lazyloaded"
+            className="full-width lazyloaded"
             src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/uploads/01-It-all-starts-with-a-power-practice-site.jpg"
             data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/uploads/01-It-all-starts-with-a-power-practice-site.jpg"
           />
         </div>
-        <div class="col-12 col-md-6 col-lg-5 align-self-center justify-content-right">
+        <div className="col-12 col-md-6 col-lg-5 align-self-center justify-content-right">
           <div
-            class="wow fadeInUp"
+            className="wow fadeInUp"
             //  style="visibility: visible; animation-name: fadeInUp;"
           >
-            <h2 class="display-5">Power up your website</h2>
+            <h2 className="display-5">Power up your website</h2>
             <p>
               Elevate your practice in local search results and grow your
               business with a custom healthcare website from PatientPop. Your
@@ -1102,18 +1102,18 @@ function Index() {
             </p>{" "}
             <a
               href="/why-your-website-is-important"
-              class="btn btn-link btn-next"
+              className="btn btn-link btn-next"
             >
               Why your website is so important
             </a>
           </div>
         </div>
       </section>
-      <section class="container-xxl my-5 py-5">
-        <div class="row pt-5 mt-5 pb-5 mb-5 justify-content-center">
-          <div class="col-12 col-md-9 text-center">
+      <section className="container-xxl my-5 py-5">
+        <div className="row pt-5 mt-5 pb-5 mb-5 justify-content-center">
+          <div className="col-12 col-md-9 text-center">
             <h2
-              class="display-1 wow fadeInUp"
+              className="display-1 wow fadeInUp"
               //  style="visibility: visible; animation-name: fadeInUp;"
             >
               Get the platform you need and{" "}
@@ -1121,7 +1121,7 @@ function Index() {
             </h2>{" "}
             <button
               type="button"
-              class="btn btn-primary"
+              className="btn btn-primary"
               data-bs-toggle="modal"
               data-bs-target="#modalDemoRequestBody"
             >

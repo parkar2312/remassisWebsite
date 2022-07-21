@@ -6,9 +6,9 @@ function How_It_Works() {
   return (
     <div>
       <ContainerNavbar />
-      <div class="container">
-        <section class="row justify-content-center hero-section">
-          <div class="col-12 col-md-10 text-center ">
+      <div className="container">
+        <section className="row justify-content-center hero-section">
+          <div className="col-12 col-md-10 text-center ">
             <h1>
               Bringing <strong>technology</strong> and <br />
               <strong>convenience</strong> to the entire patient <br />
@@ -20,7 +20,7 @@ function How_It_Works() {
             </p>{" "}
             <button
               type="button"
-              class="btn btn-primary wow fadeInUp text-nowrap"
+              className="btn btn-primary wow fadeInUp text-nowrap"
               data-bs-toggle="modal"
               data-bs-target="#modalScanner"
               style={{ visibility: "visible", animationName: "fadeInUp" }}
@@ -30,15 +30,15 @@ function How_It_Works() {
             </button>
           </div>
         </section>
-        <div class="howitworks-nav">
+        <div className="howitworks-nav">
           <ul id="howitworks-nav">
-            <li class="active">
-              <a class="howitworks-nav-item" data-target="1">
+            <li className="active">
+              <a className="howitworks-nav-item" data-target="1">
                 <noscript>
                   <img src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-discover.svg" />
                 </noscript>
                 <img
-                  class=" lazyloaded"
+                  className=" lazyloaded"
                   src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-discover.svg"
                   data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-discover.svg"
                 />
@@ -46,12 +46,12 @@ function How_It_Works() {
               </a>
             </li>
             <li>
-              <a class="howitworks-nav-item" data-target="2">
+              <a className="howitworks-nav-item" data-target="2">
                 <noscript>
                   <img src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-schedule.svg" />
                 </noscript>
                 <img
-                  class=" lazyloaded"
+                  className=" lazyloaded"
                   src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-schedule.svg"
                   data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-schedule.svg"
                 />
@@ -59,12 +59,12 @@ function How_It_Works() {
               </a>
             </li>
             <li>
-              <a class="howitworks-nav-item" data-target="3">
+              <a className="howitworks-nav-item" data-target="3">
                 <noscript>
                   <img src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-visit.svg" />
                 </noscript>
                 <img
-                  class=" lazyloaded"
+                  className=" lazyloaded"
                   src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-visit.svg"
                   data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-visit.svg"
                 />
@@ -72,12 +72,12 @@ function How_It_Works() {
               </a>
             </li>
             <li>
-              <a class="howitworks-nav-item" data-target="4">
+              <a className="howitworks-nav-item" data-target="4">
                 <noscript>
                   <img src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-advocate.svg" />
                 </noscript>
                 <img
-                  class=" lazyloaded"
+                  className=" lazyloaded"
                   src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-advocate.svg"
                   data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-advocate.svg"
                 />
@@ -85,12 +85,12 @@ function How_It_Works() {
               </a>
             </li>
             <li>
-              <a class="howitworks-nav-item" data-target="5">
+              <a className="howitworks-nav-item" data-target="5">
                 <noscript>
                   <img src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-return.svg" />
                 </noscript>
                 <img
-                  class=" lazyloaded"
+                  className=" lazyloaded"
                   src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-return.svg"
                   data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/icon-return.svg"
                 />
@@ -99,42 +99,42 @@ function How_It_Works() {
             </li>
           </ul>
         </div>
-        <div class="accordion howitworks-tabs" id="howitworks-tabs">
-          <div class="howitworks-tab-image">
+        <div className="accordion howitworks-tabs" id="howitworks-tabs">
+          <div className="howitworks-tab-image">
             {" "}
             <noscript>
               <img
                 src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/discover-bg.png"
-                class="howitworks-image-bg"
+                className="howitworks-image-bg"
               />
             </noscript>
             {/* <img
               src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/discover-bg.png"
               data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/discover-bg.png"
-              class="howitworks-image-bg lazyloaded"
+              className="howitworks-image-bg lazyloaded"
             />{" "} */}
             <noscript>
               <img
                 src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/discover-screen.png"
-                class="howitworks-image-screen"
+                className="howitworks-image-screen"
               />
             </noscript>
             {/* <img
               src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/discover-screen.png"
               data-src="https://24g7qf3sa1s81fsal41m8ud9-wpengine.netdna-ssl.com/wp-content/themes/patientpop/resources/assets/images/howitworks/discover-screen.png"
-              class="howitworks-image-screen lazyloaded"
+              className="howitworks-image-screen lazyloaded"
             /> */}
           </div>
           <div
             id="collapseOne"
             aria-labelledby="headingOne"
             data-bs-parent="#howitworks-tabs"
-            class="accordion-collapse collapse show howitworks-tab-content"
+            className="accordion-collapse collapse show howitworks-tab-content"
           >
-            <h3 class="heading--md">
+            <h3 className="heading--md">
               Patients <span>discover</span> your practice
             </h3>
-            <p class="paragraph--lg">
+            <p className="paragraph--lg">
               Appear within the top Google results and create a web presence
               that gets you in front of the right patients at the right time.
               Patients discover your practice via:
@@ -146,7 +146,7 @@ function How_It_Works() {
               <li>Highly visible ratings and reviews</li>
               <button
                 type="button"
-                class="btn btn-primary mt-3"
+                className="btn btn-primary mt-3"
                 data-bs-toggle="modal"
                 data-bs-target="#modalDemoRequestBody"
               >
@@ -156,13 +156,13 @@ function How_It_Works() {
             </ul>{" "}
           </div>
         </div>
-        <section class="row justify-content-center quote-section">
-          <div class="col-12 text-center">
+        <section className="row justify-content-center quote-section">
+          <div className="col-12 text-center">
             <div
-              class="wow fadeInUp line-bottom"
+              className="wow fadeInUp line-bottom"
               style={{ visibility: "visible", animationName: "fadeInUp" }}
             >
-              <h3 class="display-5 heading--quote">
+              <h3 className="display-5 heading--quote">
                 “I needed a company to handle my SEO, website, patients to book
                 online… just putting it all in one place. It was the best money
                 I’ve spent on the business.”
@@ -176,23 +176,23 @@ function How_It_Works() {
           </div>
         </section>
 
-        <section class="row justify-content-center my-5 py-5">
-          <div class="col-12 col-md-10 text-center">
+        <section className="row justify-content-center my-5 py-5">
+          <div className="col-12 col-md-10 text-center">
             <div
-              class="wow fadeInUp"
+              className="wow fadeInUp"
               style={{ visibility: "visible", animationName: "fadeInUp" }}
             >
-              <h3 class="display-1 line-center">
+              <h3 className="display-1 line-center">
                 Focus on patient care while we grow your practice.
               </h3>
             </div>
             <h2></h2>
           </div>
         </section>
-        <section class="row my-5 py-5">
-          <div class="col-12 col-md-4">
+        <section className="row my-5 py-5">
+          <div className="col-12 col-md-4">
             <div
-              class="wow fadeInUp"
+              className="wow fadeInUp"
               style={{ visibility: "visible", animationName: "fadeInUp" }}
             >
               <h4>More patients</h4>
@@ -202,9 +202,9 @@ function How_It_Works() {
               </p>
             </div>
           </div>
-          <div class="col-12 col-md-4">
+          <div className="col-12 col-md-4">
             <div
-              class="wow fadeInUp"
+              className="wow fadeInUp"
               style={{ visibility: "visible", animationName: "fadeInUp" }}
             >
               <h4>Greater convenience</h4>
@@ -214,9 +214,9 @@ function How_It_Works() {
               </p>
             </div>
           </div>
-          <div class="col-12 col-md-4">
+          <div className="col-12 col-md-4">
             <div
-              class="wow fadeInUp"
+              className="wow fadeInUp"
               style={{ visibility: "visible", animationName: "fadeInUp" }}
             >
               <h4>Peace of mind</h4>
@@ -227,9 +227,9 @@ function How_It_Works() {
               </p>
             </div>
           </div>
-          <div class="col-12 col-md-4">
+          <div className="col-12 col-md-4">
             <div
-              class="wow fadeInUp"
+              className="wow fadeInUp"
               style={{ visibility: "visible", animationName: "fadeInUp" }}
             >
               <h4>Time saving</h4>
@@ -240,9 +240,9 @@ function How_It_Works() {
               </p>
             </div>
           </div>
-          <div class="col-12 col-md-4">
+          <div className="col-12 col-md-4">
             <div
-              class="wow fadeInUp"
+              className="wow fadeInUp"
               style={{ visibility: "visible", animationName: "fadeInUp" }}
             >
               <h4>Better workflow</h4>
@@ -253,9 +253,9 @@ function How_It_Works() {
               </p>
             </div>
           </div>
-          <div class="col-12 col-md-4">
+          <div className="col-12 col-md-4">
             <div
-              class="wow fadeInUp"
+              className="wow fadeInUp"
               style={{ visibility: "visible", animationName: "fadeInUp" }}
             >
               <h4>Market leadership</h4>
@@ -266,11 +266,11 @@ function How_It_Works() {
             </div>
           </div>
         </section>
-        <div class="container-xxl">
-          <div class="row my-5 py-5 justify-content-center">
-            <div class="col-12 col-md-10">
+        <div className="container-xxl">
+          <div className="row my-5 py-5 justify-content-center">
+            <div className="col-12 col-md-10">
               <h2
-                class="display-1 wow fadeInUp"
+                className="display-1 wow fadeInUp"
                 style={{ visibility: "visible", animationName: "fadeInUp" }}
               >
                 Discover the only complete <strong>practice growth</strong>{" "}
@@ -278,7 +278,7 @@ function How_It_Works() {
               </h2>{" "}
               <button
                 type="button"
-                class="btn btn-primary wow fadeInUp text-nowrap"
+                className="btn btn-primary wow fadeInUp text-nowrap"
                 data-bs-toggle="modal"
                 data-bs-target="#modalDemoRequestBody"
                 style={{ visibility: "visible", animationName: "fadeInUp" }}

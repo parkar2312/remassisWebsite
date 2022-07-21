@@ -23,7 +23,7 @@ function ContainerPages3() {
                       <div className="customer-stories_card_content">
                         <span className="badge">Customer story</span>
                         <p className="quote">
-                          PatientPop helped us increase web traffic and
+                          Remassis helped us increase web traffic and
                           appointment volume. In one year, they helped generate
                           over 5,000 new patient bookings.
                         </p>{" "}
@@ -83,7 +83,7 @@ function ContainerPages3() {
                         <span className="badge">Customer story</span>
                         <p className="quote">
                           You need a partner that is going to do everything in
-                          your best interest. That's PatientPop.
+                          your best interest. That's Remassis.
                         </p>{" "}
                         <span className="customer-stories_source">
                           Phoenix Heart
@@ -140,7 +140,7 @@ function ContainerPages3() {
                         {" "}
                         <span className="badge">Customer story</span>
                         <div className="quote">
-                          PatientPop has made a huge difference for my practice.
+                          Remassis has made a huge difference for my practice.
                           It’s easy to use, and the team is responsive to
                           customer needs.
                         </div>{" "}
@@ -199,7 +199,7 @@ function ContainerPages3() {
                         {" "}
                         <span className="badge">Customer story</span>
                         <p className="quote">
-                          With PatientPop, my site is beautiful, updated, and
+                          With Remassis, my site is beautiful, updated, and
                           really targeted for the services that we offer.
                         </p>{" "}
                         <span className="customer-stories_source">
@@ -259,8 +259,8 @@ function ContainerPages3() {
                         <span className="badge">Customer story</span>
                         <p className="quote">
                           We wanted a solution that was a little bit more
-                          all-encompassing. PatientPop is one of those
-                          all-in-one systems.
+                          all-encompassing. Remassis is one of those all-in-one
+                          systems.
                         </p>{" "}
                         <span className="customer-stories_source">
                           Foot &amp; Ankle Specialists of New Jersey
@@ -318,7 +318,7 @@ function ContainerPages3() {
                         <span className="badge">Customer story</span>
                         <p className="quote">
                           Everyone wants good reviews. There’s no doubt that
-                          PatientPop has contributed to that process.
+                          Remassis has contributed to that process.
                         </p>{" "}
                         <span className="customer-stories_source">
                           Cornerstone Medical Associates

@@ -1,8 +1,6 @@
 import React, { useState } from "react";
-import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
-import Modal from "react-bootstrap/Modal";
 
 function GetDemoModal() {
   return (
@@ -11,7 +9,7 @@ function GetDemoModal() {
         <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
           <Form.Label>
             Please complete the form below so we can contact you with more
-            information about how PatientPop can help grow your practice.
+            information about how Remassis can help grow your practice.
           </Form.Label>
         </Form.Group>
         <Form.Group className="mb-2" controlId="exampleForm.ControlTextarea1">
@@ -70,7 +68,7 @@ function GetDemoModal() {
         </Form.Group>
         <Form.Group className="mb-2" controlId="exampleForm.ControlInput1">
           <Form.Label>
-            By submitting my email address above, I acknowledge that PatientPop
+            By submitting my email address above, I acknowledge that Remassis
             may use my information as described in its Privacy Policy.
           </Form.Label>
         </Form.Group>

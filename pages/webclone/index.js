@@ -19,7 +19,8 @@ function WebClone() {
                     className="display-1 wow fadeInUp"
                     style={{ visibility: "visible", animationName: "fadeInUp" }}
                   >
-                    Everything your practice needs to <strong>thrive</strong>
+                    Enable caregivers to engage with Patients{" "}
+                    <strong>better</strong>
                   </h1>
                   <p
                     className="line-left wow fadeInUp"
@@ -39,7 +40,7 @@ function WebClone() {
                     {" "}
                     How it works{" "}
                   </a>{" "}
-                  <a
+                  {/* <a
                     className="btn btn-link wow fadeInUp text-nowrap"
                     data-bs-toggle="modal"
                     data-bs-target="#modalScanner"
@@ -47,7 +48,7 @@ function WebClone() {
                   >
                     {" "}
                     Compare your practice{" "}
-                  </a>
+                  </a> */}
                 </div>
               </div>
             </div>

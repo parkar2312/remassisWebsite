@@ -1,11 +1,11 @@
 import { Fragment } from "react";
-import WebClone from "./webclone";
+import Homepage from "./homepage";
 
-function Homepage() {
+function index() {
   return (
     <Fragment>
-      <WebClone />
+      <Homepage />
     </Fragment>
   );
 }
-export default Homepage;
+export default index;
