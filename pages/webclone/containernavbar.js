@@ -138,7 +138,7 @@ function ContainerNavbar() {
                 <Dropdown>
                   <a
                     className="nav-link nav-link-top"
-                    href="../whyPatientsPop"
+                    href="../whyRemassis"
                     role="button"
                   >
                     {" "}
@@ -161,6 +161,7 @@ function ContainerNavbar() {
               </li>
             </ul>
           </header>
+
           {/* <div className="button-list">
            
             <button
@@ -800,7 +801,7 @@ function ContainerNavbar() {
                 <Dropdown>
                   <a
                     className="nav-link nav-link-top"
-                    href="../whyPatientsPop"
+                    href="../whyRemassis"
                     role="button"
                   >
                     {" "}
@@ -825,28 +826,31 @@ function ContainerNavbar() {
                 </Dropdown>
               </li>
             </ul>{" "}
-            <div>
-              {" "}
-              <Button variant="primary" onClick={handleShow}>
-                Get demo
-              </Button>
-              <Modal show={show} onHide={handleClose}>
-                <Modal.Header closeButton>
-                  <Modal.Title>Request a free demo</Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                  <GetDemoModal />
-                </Modal.Body>
-                <Modal.Footer>
-                  <Button variant="secondary" onClick={handleClose}>
-                    Close
-                  </Button>
-                  <Button variant="primary" onClick={handleClose}>
-                    Save Changes
-                  </Button>
-                </Modal.Footer>
-              </Modal>
-            </div>
+          </div>
+          <div className="button_demo">
+            <Button
+              variant="primary"
+              onClick={handleShow}
+              style={{ padding: "0px" }}
+            >
+              Get demo
+            </Button>
+            <Modal show={show} onHide={handleClose}>
+              <Modal.Header closeButton>
+                <Modal.Title>Request a free demo</Modal.Title>
+              </Modal.Header>
+              <Modal.Body>
+                <GetDemoModal />
+              </Modal.Body>
+              <Modal.Footer>
+                <Button variant="secondary" onClick={handleClose}>
+                  Close
+                </Button>
+                <Button variant="primary" onClick={handleClose}>
+                  Save Changes
+                </Button>
+              </Modal.Footer>
+            </Modal>
           </div>
         </div>
       </nav>

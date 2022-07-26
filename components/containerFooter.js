@@ -1,5 +1,3 @@
-import React from "react";
-
 function ContainerFooter() {
   return (
     <footer className="l-footer">
@@ -262,74 +260,62 @@ function ContainerFooter() {
                   style={{ marginLeft: "-2rem" }}
                 >
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-4555">
-                    <a
-                      href="https://www.patientpop.com/about-us/"
-                      data-page="about-us"
-                    >
+                    <a href="../about_us" data-page="about-us">
                       About us
                     </a>
                   </li>
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5497">
-                    <a
-                      href="https://www.patientpop.com/about-us/leadership-team/"
-                      data-page="leadership-team"
-                    >
+                    <a href="../leadership_team" data-page="leadership-team">
                       Leadership team
                     </a>
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5496">
+                  {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5496">
                     <a
                       href="https://www.patientpop.com/about-us/our-provider-promise/"
                       data-page="our-provider-promise"
                     >
                       Our provider promise
                     </a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-4557">
+                  </li> */}
+                  {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-4557">
                     <a
                       href="https://www.patientpop.com/newsroom/"
                       data-page="newsroom"
                     >
                       News &amp; Press
                     </a>
-                  </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-8491">
+                  </li> */}
+                  {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-8491">
                     <a
                       href="https://www.patientpop.com/awards/"
                       data-page="awards"
                     >
                       Awards
                     </a>
-                  </li>
+                  </li> */}
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-7216">
-                    <a
-                      href="https://www.patientpop.com/careers/"
-                      data-page="careers"
-                    >
+                    <a href="../careers" data-page="careers">
                       Careers
                     </a>
                   </li>
-                  <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-7294">
+                  {/* <li className="menu-item menu-item-type-custom menu-item-object-custom menu-item-7294">
                     <a
                       href="https://info.patientpop.com/2018-customer-referral-web/"
                       data-page="refer-a-provider-2"
                     >
                       Refer-a-provider
                     </a>
-                  </li>
+                  </li> */}
                   <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-7217">
-                    <a
-                      href="https://www.patientpop.com/partners/"
-                      data-page="partners"
-                    >
+                    <a href="../partners" data-page="partners">
                       Partners
                     </a>
                   </li>
-                  <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5100">
+                  {/* <li className="menu-item menu-item-type-post_type menu-item-object-page menu-item-5100">
                     <a href="https://www.patientpop.com/blog/" data-page="blog">
                       Blog
                     </a>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

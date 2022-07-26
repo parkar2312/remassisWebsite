@@ -743,7 +743,7 @@ function ContainerNavbar() {
                   </a>
                 </Dropdown>
               </li>
-              <li
+              {/* <li
                 className="nav-item dropdown position-static"
                 style={{ marginTop: ".9rem" }}
               >
@@ -758,7 +758,7 @@ function ContainerNavbar() {
                     Resources{" "}
                   </a>
                 </Dropdown>
-              </li>
+              </li> */}
               <li className="nav-item dropdown position-static d-block d-lg-none mt-3">
                 {" "}
                 <a
